@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/deshbg"
+    android:background="@drawable/abc"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FireActivity"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Camping Gallary"
+            android:textAlignment="center"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/c2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="183dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toEndOf="@id/imageView1"
+            app:layout_constraintTop_toBottomOf="@id/textViewTop"
+            app:srcCompat="@drawable/c7" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView1"
+            app:srcCompat="@drawable/c8" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageView3"
+            app:layout_constraintTop_toBottomOf="@id/imageView1"
+            app:srcCompat="@drawable/c9" />
+
+        <!-- Third pair of ImageViews -->
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView3"
+            app:srcCompat="@drawable/c10" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageView5"
+            app:layout_constraintTop_toBottomOf="@id/imageView3"
+            app:srcCompat="@drawable/f3" />
+
+        <!-- Fourth pair of ImageViews -->
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView5"
+            app:srcCompat="@drawable/f3" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageView7"
+            app:layout_constraintTop_toBottomOf="@id/imageView5"
+            app:srcCompat="@drawable/ff1" />
+
+        <!-- Fifth pair of ImageViews -->
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView7"
+            app:srcCompat="@drawable/ff3" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageView9"
+            app:layout_constraintTop_toBottomOf="@id/imageView7"
+            app:srcCompat="@drawable/ff8" />
+
+        <!-- Sixth pair of ImageViews -->
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView9"
+            app:srcCompat="@drawable/ff2" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="179dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageView11"
+            app:layout_constraintTop_toBottomOf="@id/imageView9"
+            app:srcCompat="@drawable/ff6" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="299dp"
+            android:layout_height="41dp"
+            android:text="Let's See"
+            android:textAlignment="center"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="32dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
